@@ -1,18 +1,18 @@
 FROM python:3.7.0 as base
 
-ADD requirements.txt /tmp/
-RUN pip install -r /tmp/requirements.txt
-
 WORKDIR /usr/local/app
 ENV PYTHONPATH /usr/local/app
 
+RUN pip3 install pipenv && pipenv --python $(which python3)
+
+ADD Pipfile Pipfile.lock ./
+RUN pipenv install --deploy --system
+
 FROM base as test
 
-ADD test_requirements.txt /tmp/
-RUN pip install -r /tmp/test_requirements.txt
+RUN pipenv install --dev --system
 
 ADD . .
-
 RUN py.test -n=auto --cov=slack_prs --cov-report=term-missing
 RUN flake8 --max-complexity=4
 

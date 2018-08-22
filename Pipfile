@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pygithub = "*"
+texttable = "*"
+slackclient = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-randomly = "*"
+pytest-cov = "*"
+pytest-xdist = "*"
+"flake8" = "*"
+
+[requires]
+python_version = "3.7"
