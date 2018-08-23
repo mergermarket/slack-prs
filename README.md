@@ -7,8 +7,8 @@ Usage
 -----
 
     read -s -p 'github token? ' GITHUB_TOKEN
-    read -s -p 'slack token? ' SLACK_BOTS_TOKEN
-    docker run -i --rm -e GITHUB_TOKEN -e SLACK_BOTS_TOKEN \
+    read -s -p 'slack token? ' SLACK_BOT_TOKEN
+    docker run -i --rm -e GITHUB_TOKEN -e SLACK_BOT_TOKEN \
         mergermarket/slack-prs \
         --org my-github-org \
         --channel my-slack-channel
