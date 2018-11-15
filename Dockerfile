@@ -1,4 +1,4 @@
-FROM python:3.7.0 as base
+FROM python:3.7.1 as base
 
 WORKDIR /usr/local/app
 ENV PYTHONPATH /usr/local/app
