@@ -242,11 +242,11 @@
         },
         "pytest-xdist": {
             "hashes": [
-                "sha256:3308c4f6221670432d01e0b393b333d77c1fd805532e1d64450e8140855eb51b",
-                "sha256:cce08b4b7f56d34d43b365e2b3667ebb8edcf91d01c2a8fccf45c56d37e71bc1"
+                "sha256:4a201bb3ee60f5dd6bb40c5209d4e491cecc4d5bafd656cfb10f86178786e568",
+                "sha256:d03d1ff1b008458ed04fa73e642d840ac69b4107c168e06b71037c62d7813dd4"
             ],
             "index": "pypi",
-            "version": "==1.22.5"
+            "version": "==1.26.1"
         },
         "six": {
             "hashes": [
