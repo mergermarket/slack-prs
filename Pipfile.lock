@@ -30,6 +30,13 @@
             ],
             "version": "==3.0.4"
         },
+        "deprecated": {
+            "hashes": [
+                "sha256:8bfeba6e630abf42b5d111b68a05f7fe3d6de7004391b3cd614947594f87a4ff",
+                "sha256:b784e0ca85a8c1e694d77e545c10827bd99772392e79d5f5442e761515a1246e"
+            ],
+            "version": "==1.2.4"
+        },
         "idna": {
             "hashes": [
                 "sha256:c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407",
@@ -39,10 +46,10 @@
         },
         "pygithub": {
             "hashes": [
-                "sha256:b9f5cf80197ba0e3848e084de289ffa19ce1c8c279070a58754ad694d364d481"
+                "sha256:263102b43a83e2943900c1313109db7a00b3b78aeeae2c9137ba694982864872"
             ],
             "index": "pypi",
-            "version": "==1.40"
+            "version": "==1.43.5"
         },
         "pyjwt": {
             "hashes": [
@@ -93,6 +100,12 @@
                 "sha256:e51562c91ddb8148e791f0155fdb01325d99bb52c4cdbb291aee7a3563fd0849"
             ],
             "version": "==0.54.0"
+        },
+        "wrapt": {
+            "hashes": [
+                "sha256:4aea003270831cceb8a90ff27c4031da6ead7ec1886023b80ce0dfe0adf61533"
+            ],
+            "version": "==1.11.1"
         }
     },
     "develop": {
