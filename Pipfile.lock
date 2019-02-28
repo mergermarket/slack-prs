@@ -255,11 +255,11 @@
         },
         "pytest-randomly": {
             "hashes": [
-                "sha256:6db5e03d72b54052b9b379dc3cfa4749c19bfe4de161cf3eb24762049f4ce9be",
-                "sha256:92ec6745d3ebdd690ecb598648748c9601f16f5afacf83ccef2b50d23e6edb7f"
+                "sha256:08868610aa999c5e19117210932d65d70d12da0191abe173b825cdf08428a82c",
+                "sha256:cdbc15eb26a8fdf4fe509cc816e9e58eb46129e5c72f6c17d754a6dd3817ef97"
             ],
             "index": "pypi",
-            "version": "==1.2.3"
+            "version": "==2.0.0"
         },
         "pytest-xdist": {
             "hashes": [
