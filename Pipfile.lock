@@ -131,14 +131,6 @@
             ],
             "version": "==20.3.0"
         },
-        "backports.entry-points-selectable": {
-            "hashes": [
-                "sha256:1817925560c765efe73fb692c047fb007511388d53e6dbeec7bfcda391eb83ac",
-                "sha256:98b9fda50dab4f298f646bc7b717b6a3b90dd4d509015f1ce9e66b41a1330d46"
-            ],
-            "markers": "python_version < '3.10'",
-            "version": "==1.0.2"
-        },
         "coverage": {
             "hashes": [
                 "sha256:004d1880bed2d97151facef49f08e255a20ceb6f9432df75f4eef018fdd5a78c",
@@ -301,11 +293,11 @@
         },
         "pytest-randomly": {
             "hashes": [
-                "sha256:5bc4dd482827dcdc00b10ea7808e4f1376a0212e78acb1b4a81b6e9239b18b27",
-                "sha256:a62f2546f5ed565914e3f6b30e5081894748122c42cc4dbca54a2a272663b5d9"
+                "sha256:89a4f98aed1753c447a3927b66571a796e53cdecbf671e7318f6c57d79c7f6a3",
+                "sha256:cd68c1da7d152509f59fec725f5314437727937fad31a50028693269c9261d90"
             ],
             "index": "pypi",
-            "version": "==3.6.0"
+            "version": "==3.7.0"
         },
         "pytest-xdist": {
             "hashes": [
